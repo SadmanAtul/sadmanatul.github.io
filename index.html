@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadman Hossain</title>
+     <link rel="icon" type="image/logo.png" href="image/logoHead.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
+    <script src="https://kit.fontawesome.com/daaca41578.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <div id ="header">
+      <div class="container">
+        <nav>
+            <img src="image/logo.png" alt="Logo" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                <li> <a href="#header">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#services">Service</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+                
+            </ul>
+            <i class="fa-solid fa-caret-down" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Designer</p>
+            <h1>Hi, I'm <span>Sadman</span> <br>Hossain from Bangladesh</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------about section------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png" alt="user image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>I'm a frontend developer and UI/UX designer with a passion for creating seamless, user-centric digital experiences.
+                        I specialize in building responsive, accessible, and visually engaging interfaces.
+                        With a strong eye for detail and design, I turn ideas into polished, interactive products.
+                        From landing pages to full-scale web apps, I blend creativity with clean, efficient code.
+                        I love bringing concepts to life that not only look great but also feel intuitive to use.                                          
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span> <br> Designing Web/App</li>
+                                <li><span>Web Development</span> <br> Web app Development</li>
+                                <li><span>App Development</span> <br> Building Android/iOS App</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2019</span> <br>I Have experience In Designing Web/App For 1 Year</li>
+                                <li><span>2024</span> <br>I Have experience In Web app Development For 2 Year</li>
+                                <li><span>2025</span> <br>I Have experience In Building Android/iOS App For 2.3 Year</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SSC</span> <br> Motijheel Model School</li>
+                                <li><span>HSC</span> <br> Habibullah Bahar College</li>
+                                <li><span>BSC</span> <br> Dhaka International University</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ------------------service section------------------ -->
+
+<div id="services">
+     <h1 class="sub-title">My Services</h1>
+      <div class="services-list"> 
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, 
+                maiores. Repudiandae possimus ea aut maxime laboriosam deserunt 
+                iure beatae hic dolores harum vel odio, blanditiis architecto.
+                 Itaque modi velit in.</P>
+
+                 <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, 
+                maiores. Repudiandae possimus ea aut maxime laboriosam deserunt 
+                iure beatae hic dolores harum vel odio, blanditiis architecto.
+                 Itaque modi velit in.</P>
+
+                 <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, 
+                maiores. Repudiandae possimus ea aut maxime laboriosam deserunt 
+                iure beatae hic dolores harum vel odio, blanditiis architecto.
+                 Itaque modi velit in.</P>
+
+                 <a href="#">Learn More</a>
+        </div>
+
+ </div>
+</div>
+<!-- ----------------------------portfolio------------------------------- -->
+
+<div class="portfolio">
+
+     <div class="container"></div>
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+        <div class="work">
+            <img src="image/work-1.png" alt="">
+            <div class="layer">
+                <h3>Socal Media App</h3>
+                <p>The app help you to connect you to all people like you</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-2.png" alt="">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>A music app to enjoy music like your passions</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-3.png" alt="">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The shopping app to buy your wish item with ease</p>
+                
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+        
+     </div>
+     <div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- -----------------------------------------Contact----------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+           
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <p><i class="fa-solid fa-paper-plane"></i>sadmanatulofficial@gmail.com</p>
+                <P><i class="fa-solid fa-phone"></i>01635527558</P>
+
+                <div class="socal-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © by Sadman Hossain 😎</p>
+    </div>
+
+</div>
+
+
+
+
+    
+</body>
+</html>
